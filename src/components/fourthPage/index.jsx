@@ -5,8 +5,8 @@ import BackBtn from '../../shared/backBtn'
 const FourthPage = () => {
     const [clicked, setClicked] = useState('')
 
+    // Function for the user Box
     const userBox = (userPhoto, userRole, userInfo, height) => {
-
         return <div onClick={() => setClicked(userRole)}
             className={`h-40 md:w-[18%] w-[85%] border-[1px] border-gray-200 rounded-md gap-2 items-center flex flex-col justify-center cursor-pointer ${clicked === userRole ? 'shadow-md border-yellow-200' : ''}`}>
             <img className={`h-${height}`} src={`./${userPhoto}`} alt="" />
