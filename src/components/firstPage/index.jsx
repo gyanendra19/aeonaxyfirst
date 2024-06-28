@@ -31,8 +31,6 @@ const FirstPage = () => {
                     {userBox('professional.png', 'Professional', 'pursuing a career')}
                     {userBox('parent.png', 'Parent', 'of a School-age-child')}
                     {userBox('learner.png', 'Life Long Learner')}
-                    {userBox('teacher.png', 'Teacher')}
-                    {userBox('other.png', 'Other')}
                     <ContinueBtn clicked = {clicked} page={'secondPage'}/>
                 </div>
 
